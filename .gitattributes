@@ -1,0 +1,13 @@
+# 所有文本文件统一使用LF换行符
+* text=auto eol=lf
+
+# 针对CSS/JS/HTML文件单独指定（避免特殊情况）
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+
+# 二进制文件（图片/字体）不转换换行符
+*.png binary
+*.jpg binary
+*.woff2 binary
+*.woff binary
